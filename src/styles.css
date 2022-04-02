@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+:root {
+  --first-color: #f27256;
+  --second-color: #76d3f0;
+}
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  color: #313131;
+  background-color: #efefef;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Alice", serif;
+  margin: 0;
+}
+
+.nav {
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+  margin-bottom: 10rem;
+  color: var(--first-color);
+}
+.nav-item {
+  font-size: 1.8rem;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 10rem;
+}
+
+.nav-item:last-child {
+  margin-right: 10rem;
+}
+
+.nav-item {
+  position: relative;
+  color: var(--first-color);
+}
+
+.nav-item:not(:first-child):after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--first-color);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.hello {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 3.8rem;
+}
+
+.photo {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.photo img {
+  max-width: 70%;
+  object-fit: cover;
+  margin-bottom: 70px;
+}
+
+img {
+  pointer-events: none;
+}
+
+h2 {
+  margin-top: 7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.description {
+  max-width: 50%;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 7rem;
+}
