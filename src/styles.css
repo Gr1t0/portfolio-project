@@ -139,7 +139,7 @@ h2 {
 }
 
 .description {
-  padding-left: 20rem;
+  padding-left: 15rem;
   font-size: 2rem;
 }
 
@@ -147,7 +147,7 @@ h2 {
   padding-right: 10rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
   .container {
     display: grid;
     grid-column: 1;
@@ -201,7 +201,18 @@ h2 {
   .nav-item:first-child {
     display: none;
   }
+}
 
+@media (max-width: 550px) {
+  .description {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .container {
+    padding: 0rem 0rem;
+  }
   p {
     font-size: 1.5rem;
   }
