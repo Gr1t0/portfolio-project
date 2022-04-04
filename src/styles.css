@@ -146,13 +146,8 @@ h2 {
 .wapp-pic {
   padding-right: 10rem;
 }
-.burger {
-  display: none;
-}
 
-@media (max-width: 800px) {
- 
-
+@media (max-width: 1000px) {
   .container {
     display: grid;
     grid-column: 1;
@@ -196,11 +191,9 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    
   }
   .nav-item {
     padding: 0.2rem;
-    
   }
   .nav-item:last-child {
     margin-right: 1rem;
@@ -208,10 +201,5 @@ h2 {
 
   .nav-item:first-child {
     display: none;
-  }
-  /*.burger {
-    display: block;
-    margin-left: 200px;
-    margin-top: 40px;
   }
 }
