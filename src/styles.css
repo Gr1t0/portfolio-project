@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 :root {
+  --bg-color: #dfe4f5;
   --main-text-color: #313131;
   --first-color: #f27256;
   --second-color: #76d3f0;
@@ -9,7 +10,7 @@
 ::after {
   box-sizing: border-box;
   color: var(--main-text-color);
-  background-color: #f2f4fb;
+  background-color: var(--bg-color);
 }
 
 html {
@@ -235,7 +236,7 @@ h2 {
     right: 0px;
     height: 100px;
     align-items: center;
-    background-color: #f2f4fb;
+    background-color: var(--bg-color)
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -259,7 +260,7 @@ h2 {
     margin-top: 2rem;
   }
   .container-contact {
-    padding-top: 12rem;
+    padding-top: 21rem;
 
     margin: 0;
     text-align: center;
