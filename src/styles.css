@@ -79,7 +79,7 @@ main {
   margin: 0 auto;
   text-align: center;
   max-width: 550px;
-  margin-bottom: 1rem;
+ 
 }
 
 h1 {
@@ -178,6 +178,10 @@ h2 {
 .contact {
   position: relative;
   font-size: 4rem;
+}
+
+.hello > h1 {
+  margin-bottom: 0;
 }
 
 @media (max-width: 950px) {
