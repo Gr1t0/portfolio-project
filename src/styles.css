@@ -183,6 +183,10 @@ h2 {
 .hello > h1 {
   margin-bottom: 0;
 }
+.description > h2 {
+ font-size: 3.6rem;
+ margin-bottom: 0;
+}
 
 @media (max-width: 950px) {
   .container {
@@ -213,9 +217,7 @@ h2 {
     padding: 8rem 4rem 0rem 4rem;
     margin-bottom: 1rem;
   }
-  h2 {
-    margin-bottom: 0.7rem;
-  }
+ 
   .nav {
     margin-bottom: 1rem;
   }
@@ -254,6 +256,10 @@ h2 {
     margin: 0;
     text-align: center;
   }
+  .description > h2 {
+ font-size: 3.6rem;
+ margin-bottom: 1rem;
+}
 }
 
 @media (max-width: 550px) {
@@ -280,4 +286,8 @@ h2 {
     margin: 0;
     text-align: center;
   }
+  .description > h2 {
+ font-size: 3.6rem;
+ margin-bottom: 1rem;
+}
 }
