@@ -9,7 +9,7 @@
 ::after {
   box-sizing: border-box;
   color: var(--main-text-color);
-  background-color: #efefef;
+  background-color: #f2f4fb;
 }
 
 html {
