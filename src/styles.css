@@ -122,7 +122,7 @@ img {
   text-align: center;
   font-size: 2rem;
   background-color: white;
-  padding: 7rem;
+  padding: 7rem ;
   max-width: 550px;
   
 
@@ -219,7 +219,7 @@ h2 {
 footer {
    background-color: white;
    height: auto;
-   padding: 2rem;
+   padding: 2rem 2rem 0.5rem 2rem;
    width: 100%;
    margin: 0 auto;
   text-align: center;
@@ -235,6 +235,7 @@ footer {
 .f-cc {
   text-align: right;
   font-size: 0.8rem;
+  margin-top: 1.5rem;
 }
 
 @media (max-width: 950px) {
@@ -352,7 +353,7 @@ footer {
 
 .f-cc {
   text-align: center;
-  font-size: 0.6rem;
-  margin-top: 0.3rem;
+  
+  
 }
 }
