@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 :root {
-  --bg-color: #f7fbfd;
+  --bg-color: #fff;
   --main-text-color: #313131;
   --first-color: #f27256;
   --second-color: #76d3f0;
@@ -151,7 +151,7 @@ h2 {
   grid-column: 2;
   grid: auto-flow / 1fr 1fr;
   grid-column-gap: 10em;
-  border: 0.5rem solid white;
+  
   padding: 8rem 4rem;
   max-width: 90%;
   margin: 0 auto;
