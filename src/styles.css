@@ -328,6 +328,14 @@ footer {
     margin: 0;
   }
 
+  .projects {
+ 
+  padding: 5rem;
+  
+  
+
+}
+
   .btn {
     margin-top: 2rem;
   }
@@ -345,6 +353,6 @@ footer {
 .f-cc {
   text-align: center;
   font-size: 0.6rem;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 }
