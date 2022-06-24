@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\SC20-03"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "programming",
+    "cSpell.words": ["aboutme"]
+  }
+}
